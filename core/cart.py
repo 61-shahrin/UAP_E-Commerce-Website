@@ -52,3 +52,4 @@ class Cart:
 
     def is_empty(self):
         return len(self) == 0
+
