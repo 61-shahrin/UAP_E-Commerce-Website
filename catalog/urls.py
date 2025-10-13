@@ -11,3 +11,4 @@ urlpatterns = [
     path('', views.product_list, name='catalog'),
     path('', views.home, name='home'),
 ]
+
