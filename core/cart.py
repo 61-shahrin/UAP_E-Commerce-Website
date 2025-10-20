@@ -44,7 +44,7 @@ class Cart:
             item["total"] = item["price"] * item["quantity"]
             yield item
 
-    def __len__(self):
+       def __len__(self):
         return sum(i["quantity"] for i in self.cart.values())
 
     def total_price(self):
@@ -52,3 +52,5 @@ class Cart:
 
     def is_empty(self):
         return len(self) == 0
+
+
